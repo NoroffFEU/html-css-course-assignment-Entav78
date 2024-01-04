@@ -5,15 +5,81 @@
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
 
-body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
-}
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+
+      .header {
+        background-color: rgb(67, 78, 41);
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 10%;
+        padding-bottom: 3%;
+      }
+      .hamburger-menu {
+        width: 90%;
+        padding-left: 50%;
+        }
+      .Rainydays-logo {
+        width: 75%;
+        padding-left: 30%;
+      }
+      .shopping-cart-logo {
+        background-color: rgb(67, 78, 41);
+        width: 58%;
+        padding-left: 15%;
+        }
+      
+      .left-section {
+        display: flex;
+        flex: 1;
+        align-items: center;
+      }
+      .middle-section {
+        display: flex;
+        align-items: center;
+        flex: 2;
+      }
+      .right-section {
+        display: flex;
+        align-items: center;
+        flex: 1;
+      }
+      
+      
+      .body {
+        margin-bottom: 500px;
+      }
+
+      .main-picture-home {
+        width: 100%;
+      }
+
+      .header-1 {
+        font-family: merienda;
+        font-size: 16px;
+        margin-left: 2%;
+      }
+      .home-women-shop,
+      .home-men-shop {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      .women-shop-button,
+      .men-shop-button {
+        background-color: rgb(67, 78, 41);
+        color: white;
+        width: 112px;
+        height: 47px;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 25%;
+        margin-top: -20%;
+      }
+        
+      
+  
