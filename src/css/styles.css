@@ -11,6 +11,7 @@
 
 
 /* Rainydays Home Mobile*/
+      
       .header {
         background-color: rgb(67, 78, 41);
         height: 100%;
@@ -147,8 +148,7 @@
       
     }
     .jacket-shop {
-      min-width: 50em;
-      max-width: 500%;
+      
       display: flex;
       flex: 1 1 1;
       flex-direction: column;
@@ -200,7 +200,7 @@
         
       }
       .brown-button {
-        display: flex;
+        
         background-color: rgb(175 , 145, 111);
         border: solid;
         border-color: black;
@@ -209,6 +209,7 @@
         margin: 0.3em;
       }
       .pale-lime-button {
+        
         background-color: rgb(248 , 429, 209);
         border: solid;
         border-color: black;
@@ -240,6 +241,44 @@
         padding: 1.5em;
         margin: 0.3em;
       }
-
-    
-    
+      .size-jacket-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: 3%;
+      }
+      .xs-button,
+      .s-button,
+      .m-button,
+      .l-button,
+      .xl-button,
+      .xxl-button {
+        background-color: rgb(143 , 157, 110);
+        color: white;
+        border: none;
+        border-radius: 20%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-inline: 5%;
+      }
+      .h1 {
+        font-weight: 700;
+        font-size: 20px;
+      }
+      .jacket-description{
+        font-family: inter;
+        font-weight: 500;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      .container-jacket-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+      }
+      .img-jacket-colors {
+        display: flex;
+        flex-direction: column;
+      }
