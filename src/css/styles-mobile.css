@@ -1,0 +1,305 @@
+/* Use import to split up your CSS into manageable chunks */
+@import url("./_reset.css");
+/* Files that are only needed to be imported are called partials */
+/* These are marked with an underscore: */
+@import url("./_variables.css");
+/* Feel free to add as many of these imports as you need */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
+
+
+/* Rainydays Home Mobile*/
+      
+      .header {
+        background-color: rgb(67, 78, 41);
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 10%;
+        padding-bottom: 3%;
+      }
+      .hamburger-menu {
+        width: 90%;
+        padding-left: 50%;
+        }
+      .Rainydays-logo {
+        width: 75%;
+        padding-left: 30%;
+      }
+      .shopping-cart-logo {
+        background-color: rgb(67, 78, 41);
+        width: 58%;
+        padding-left: 15%;
+        }
+      
+      .left-section {
+        display: flex;
+        flex: 1;
+        align-items: center;
+      }
+      .middle-section {
+        display: flex;
+        align-items: center;
+        flex: 2;
+      }
+      .right-section {
+        display: flex;
+        align-items: center;
+        flex: 1;
+      }
+      .body {
+        margin-bottom: 500px;
+      }
+
+      .main-picture-home {
+        width: 100%;
+      }
+
+      .header-1 {
+        font-family: merienda;
+        font-size: 16px;
+        margin-left: 2%;
+      }
+/*do something about the picture and size*/
+      .home-women-shop,
+      .home-men-shop {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+ /*use a grid instead of flex on buttons to keep in place when ajusting screensize?*/     
+      .women-shop-button,
+      .men-shop-button {
+        background-color: rgb(67, 78, 41);
+        color: white;
+        width: 112px;
+        height: 47px;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 25%;
+        margin-top: -20%;
+      }
+    
+    
+   
+    .footer-mobile {
+      display: grid;
+      grid-template-rows: 13em 5rem;
+      align-items: center;
+      background-color: rgb(67, 78, 41);
+      font-family: inter;
+      font-size: 16px;
+      font-weight: 500;
+      color: white;
+      line-height: 0.2em;
+      padding-left: 30%;
+      padding-bottom: 10%;
+    }
+    .upper-section {
+      display: grid;
+      grid-template-rows: 1.8em 4em 1.8em ;
+      width: 12em;
+    }
+    .p1 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 0;
+    }
+    .lower-section {
+     display: grid; 
+     grid-template-rows: 1.5em 3em;
+     }
+    .location,
+    .call-us,
+    .mail-us {
+      display: grid;
+      grid-template-columns: 2em 1fr;
+    }
+    .location-icon {
+      margin-top: 0.5em;
+      margin-left: 0.3em;
+    }
+    .mobile-icon {
+      margin-top: 0.5em;
+      margin-left: 0.3em;
+    }
+    .mail-icon {
+      margin-top: 0.5em;
+    }
+    .social-media {
+      display: grid;
+      grid-template-columns: 2em 2em 2em;
+      align-items: center;
+    }
+  
+  /*shop women*/
+    
+    .container-shop {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 1em;
+      
+    }
+    .jacket-shop {
+      
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+    }
+    .jacket-name-shop {
+      font-family: inter;
+      font-weight: 700;
+      font-size: 16px;
+      margin: 0;
+    }
+    .price-shop {
+      font-family: inter;
+      font-weight: 700;
+      font-size: 18px;
+      margin: 0.5em;
+    }
+    .add-to-wishlist-button,
+    .add-to-cart-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: rgb(67, 78, 41);
+      color: white;
+      width: 12em;
+      max-width: 500%;
+      height: 3em;
+      border: none;
+      border-radius: 1.5em;
+      padding-left: 1.5em;
+      padding-right: 1em;  
+      }
+      .add-to-wishlist-button{
+        background-color: rgb(143 , 157, 110);
+        margin-top: 1em;
+      }
+      .add-to-cart-icon {
+        padding-right: 1.5em;
+      }
+      .add-to-wishlisht-icon {
+        margin-right: 1em;
+      }
+     
+      /*product info mobile*/
+
+      .color-jacket-buttons {
+        display: flex;
+        margin: 1em;
+        
+      }
+      .brown-button {
+        
+        background-color: rgb(175 , 145, 111);
+        border: solid;
+        border-color: black;
+        border-radius: 50%;
+        padding: 1.5em;
+        margin: 0.3em;
+      }
+      .pale-lime-button {
+        
+        background-color: rgb(248 , 429, 209);
+        border: solid;
+        border-color: black;
+        border-radius: 50%;
+        padding: 1.5em;
+        margin: 0.3em;
+      }
+      .navy-blue-button {
+        background-color: rgb(42 , 59, 85);
+        border: solid;
+        border-color: black;
+        border-radius: 50%;
+        padding: 1.5em;
+        margin: 0.3em;
+      }
+      .light-yellow-button {
+        background-color: rgb(230 , 239, 160);
+        border: solid;
+        border-color: black;
+        border-radius: 50%;
+        padding: 1.5em;
+        margin: 0.3em;
+      }
+      .red-button {
+        background-color: rgb(223 , 56, 24);
+        border: solid;
+        border-color: black;
+        border-radius: 50%;
+        padding: 1.5em;
+        margin: 0.3em;
+      }
+      .size-jacket-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-bottom: 3%;
+      }
+      .xs-button,
+      .s-button,
+      .m-button,
+      .l-button,
+      .xl-button,
+      .xxl-button {
+        background-color: rgb(143 , 157, 110);
+        color: white;
+        border: none;
+        border-radius: 20%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-inline: 5%;
+      }
+      .h1 {
+        font-weight: 700;
+        font-size: 20px;
+      }
+      .jacket-description{
+        font-family: inter;
+        font-weight: 500;
+        margin-left: 7%;
+        margin-right: 7%;
+      }
+      .container-jacket-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+      }
+      .img-jacket-colors {
+        display: flex;
+        flex-direction: column;
+      }
+      .about-us-container {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        flex: 1;
+        margin-left: 7%;
+        margin-right: 7%;
+      }
+      .h2 {
+        font-family: inter;
+        font-family: 700;
+        font-size: 24px;
+        margin-top: 5%;
+        margin-bottom: 0;
+      }
+      .about-us-text {
+        font-family: merienda;
+        font-weight: 500;
+        margin-top: 0;
+      }
+      
