@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  min-width: 1350px;
+ 
+  
+  
+}
+.left-section {
+  margin-left: 10%;
+  margin-right: 1%;
+}
+.rainydays-logo {
+  width: 17em;
+  
+}
+.middle-section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.5%;
+  margin-right: 5%;
+}
+.menu-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.search-bar {
+  flex: 1;
+  width: 100%;
+  margin-top: 1%;
+  margin-left: 3%;
+}
+.search {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 3.5%;
+  border-radius: 1em;
+  background-color: white;
+  width: 100%;
+  transition: box-shadow 0.25;
+}
+.search:focus-within {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+.search-input {
+  font-size: 16px;
+  font-family: inter, sans-serif;
+  color: rgb(36, 47, 10);
+  margin-left: 1em;
+  outline: none;
+  border: none;
+  background: transparent;
+  flex: 1;
+  }
+
+.placeholder-input::placeholder,
+.search-icon {
+  color: rgba(0, 0, 0, 0.5);
+} 
+.home-button,
+.shop-button,
+.about-button,
+.contact-us-button {
+  background-color: rgb(36, 47, 10);
+  color: white;
+  flex: 1;
+  padding-top: 2%;
+  padding-bottom: 2%; 
+  padding-left: 3%;
+  padding-right: 3%; 
+  border-radius: 1em;
+  border-color: rgb(143, 157, 110);
+  margin-right: 2%;
+}
+.right-section {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10%;
+  margin-left: 2%;
+  margin-bottom: 0.8%;
+  
+}
+.shopping-cart-logo {
+  width: 4em;
+  
+  
+
+  
+}

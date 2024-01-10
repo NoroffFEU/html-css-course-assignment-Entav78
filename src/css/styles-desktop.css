@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
 .body {
   margin: 0;
 }
@@ -14,13 +16,11 @@
   width: 100%;
   padding-left: 30%;
 }
-.search-bar {
-  background-color: white;
-}
+
+
 .shopping-cart-logo {
   background-color: rgb(67, 78, 41);
-  width: 5em;
-  
+  width: 5em;  
   }
 .about-us-desktop-container {
   
