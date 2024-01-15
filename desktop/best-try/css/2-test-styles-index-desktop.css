@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+.body {
+  min-width: fit-content;
+}
+.about-rainydays-desktop-container {
+  background-color: chocolate;
+  background-image: url(/assets/images/Rainydays-ai-small.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  font-family: inter;
+  padding-top: 5%;
+  
+  
+}
+.h1 {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+.about-us-text {
+  margin-top: 5%;
+}
+.p1 {
+  color: white;
+  
+  margin-left: 5%;
+  
+}
+
+.img {
+  width: 100%;
+}
+.home-women-shop-container {
+  display: flex;
+  background-image: url("/assets/images/twentyfour/Dame/women-shop-image.png");
+  background-size: cover;
+  background-position: center end; 
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.women-shop-button {
+  background-color: rgb(67, 78, 41);
+  color: white;
+  width: 112px;
+  height: 47px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+.home-men-shop-container {
+  display: flex;
+  background-image: url("/assets/images/WEB_Image_1222_ST_Fleece_jakke_H_11936_ss23_morkoker_81455128286_plid_1582623.jpeg");
+  background-size: cover;
+  background-position: center end; 
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.men-shop-button {
+  background-color: rgb(67, 78, 41);
+  color: white;
+  width: 112px;
+  height: 47px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 2%;
+      }
