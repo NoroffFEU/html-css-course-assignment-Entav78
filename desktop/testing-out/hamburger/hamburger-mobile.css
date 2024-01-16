@@ -7,12 +7,12 @@
 }
 
 :root {
-  --bar-width: 60px;
+  --bar-width: 40px;
   --bar-height: 8px;
-  --hamburger-gap: 6px;
-  --foreground: #333;
-  --bacground: white;
-  --hamburger-margin: 8px;
+  --hamburger-gap: 8px;
+  --foreground: rgb(0, 0, 0);
+  --background: rgb(255, 255, 255);
+  --hamburger-margin: 16px;
   --animation-timing:200ms ease-in-out;
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2)
 }
@@ -22,15 +22,23 @@
   display: flex;
   flex-direction: column;
   gap: var(--hamburger-gap);
-  
   width: max-content;
-  position: absolute;
   top: var(--hamburger-margin);
   left: var(--hamburger-margin);
   z-index: 2;
   cursor: pointer;
 }
+.hamburger-menu:has(input:checked) {
+  --foreground: white;
+  --background: #333;
+}
 
+.hamburger-menu:has(input:focus-visible)::before,
+.hamburger-menu:has(input:focus-visible)::after,
+.hamburger-menu input:focus-visible {
+  border: 1px solid var(--background);
+  box-shadow: 0 0 0 1px var(--foreground);
+}
 .hamburger-menu::before,
 .hamburger-menu::after,
 .hamburger-menu input {
@@ -40,7 +48,7 @@
   background-color: var(--foreground);
   border-radius: 9999px;
   transform-origin: left center;
-  transition: opacity var(--animation-timing), width var(--animation-timing); rotate var(--animation-timing); translate var(--animation-timing); background-color var(--animation-timing); 
+  transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), background-color var(--animation-timing); 
   
 }
 
@@ -70,6 +78,16 @@
 }
 
 .sidebar {
-  /*translate: -100%;*/
-  margin-top: calc(var(--hamburger-height));
+  transition: transform var(--animation-timing);
+  translate: -100%;
+  padding: 0.5rem 1rem;
+  padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+  background-color: var(--foreground);
+  color: var(--background);
+  max-width: 95%;
+  min-height: 50%;
+}
+
+.hamburger-menu:has(input:checked) +.sidebar {
+  translate: 0;
 }
