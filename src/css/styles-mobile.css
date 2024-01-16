@@ -11,7 +11,9 @@
 
 
 /* Rainydays Home Mobile*/
-      
+.body {
+  margin-bottom: 500px;
+} 
       .header {
         background-color: rgb(67, 78, 41);
         height: 100%;
@@ -50,15 +52,13 @@
         align-items: center;
         flex: 1;
       }
-      .body {
-        margin-bottom: 500px;
-      }
+      
 
       .main-picture-home {
         width: 100%;
       }
 
-      .header-1 {
+      .h1-mobile {
         font-family: merienda;
         font-size: 16px;
         margin-left: 2%;
@@ -73,7 +73,7 @@
         align-items: center;
         
       }
- /*use a grid instead of flex on buttons to keep in place when ajusting screensize?*/     
+      
       .women-shop-button,
       .men-shop-button {
         background-color: rgb(67, 78, 41);
@@ -88,55 +88,7 @@
     
     
    
-    .footer-mobile {
-      display: grid;
-      grid-template-rows: 13em 5rem;
-      align-items: center;
-      background-color: rgb(67, 78, 41);
-      font-family: inter;
-      font-size: 16px;
-      font-weight: 500;
-      color: white;
-      line-height: 0.2em;
-      padding-left: 30%;
-      padding-bottom: 10%;
-    }
-    .upper-section {
-      display: grid;
-      grid-template-rows: 1.8em 4em 1.8em ;
-      width: 12em;
-    }
-    .p1 {
-      font-size: 18px;
-      font-weight: 700;
-      margin: 0;
-    }
-    .lower-section {
-     display: grid; 
-     grid-template-rows: 1.5em 3em;
-     }
-    .location,
-    .call-us,
-    .mail-us {
-      display: grid;
-      grid-template-columns: 2em 1fr;
-    }
-    .location-icon {
-      margin-top: 0.5em;
-      margin-left: 0.3em;
-    }
-    .mobile-icon {
-      margin-top: 0.5em;
-      margin-left: 0.3em;
-    }
-    .mail-icon {
-      margin-top: 0.5em;
-    }
-    .social-media {
-      display: grid;
-      grid-template-columns: 2em 2em 2em;
-      align-items: center;
-    }
+    
   
   /*shop women*/
     
@@ -148,7 +100,6 @@
       
     }
     .jacket-shop {
-      
       display: flex;
       flex: 1;
       flex-direction: column;
@@ -262,10 +213,13 @@
         padding-right: 0.5rem;
         margin-inline: 5%;
       }
-      .h1 {
+      
+      
+      .h1-product-info {
         font-weight: 700;
         font-size: 20px;
       }
+      
       .jacket-description{
         font-family: inter;
         font-weight: 500;
@@ -301,5 +255,55 @@
         font-family: merienda;
         font-weight: 500;
         margin-top: 0;
+      }
+/* footer mobile*/
+      .footer-mobile {
+        display: grid;
+        grid-template-rows: 13em 5rem;
+        align-items: center;
+        background-color: rgb(67, 78, 41);
+        font-family: inter;
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        line-height: 0.2em;
+        padding-left: 30%;
+        padding-bottom: 10%;
+      }
+      .upper-section {
+        display: grid;
+        grid-template-rows: 1.8em 4em 1.8em ;
+        width: 12em;
+      }
+      .p1 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+      }
+      .lower-section {
+       display: grid; 
+       grid-template-rows: 1.5em 3em;
+       }
+      .location,
+      .call-us,
+      .mail-us {
+        display: grid;
+        grid-template-columns: 2em 1fr;
+      }
+      .location-icon {
+        margin-top: 0.5em;
+        margin-left: 0.3em;
+      }
+      .mobile-icon {
+        margin-top: 0.5em;
+        margin-left: 0.3em;
+      }
+      .mail-icon {
+        margin-top: 0.5em;
+      }
+      .social-media {
+        display: grid;
+        grid-template-columns: 2em 2em 2em;
+        align-items: center;
       }
       
