@@ -1,7 +1,7 @@
 .body {
   margin: 0;
 }
-.header {
+.header-large {
   display: flex;
   background-color: rgb(67, 78, 41);
   flex-direction: row;
@@ -18,7 +18,7 @@
   width: 100%;
   
 }
-.left-section {
+.left-section-small {
   margin: 0;
 }
 .middle-section {

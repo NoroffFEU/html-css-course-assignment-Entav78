@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
 
 
-.styles-footer-desktop {
+.styles-footer-large {
   display: grid;
   grid-template-rows: 13em 5rem;
   align-items: center;
@@ -18,7 +18,7 @@
   padding-top: 2.5%;
   padding-bottom: 5%;
 }
-.upper-section {
+.upper-section-large {
   display: grid;
   grid-template-rows: 1.8em 4em 1.8em ;
   width: 12em;
@@ -29,29 +29,29 @@
   font-weight: 700;
   margin: 0;
 }
-.lower-section {
+.lower-section-large {
  display: grid; 
  grid-template-rows: 1.5em 3em;
  }
-.location,
-.call-us,
-.mail-us {
+.location-large,
+.call-us-large,
+.mail-us-large {
   display: grid;
   grid-template-columns: 2em 1fr;
 }
-.location-icon {
+.location-icon-large {
   width: 40%;
   margin-top: 0.5em;
   margin-left: 0.3em;
 }
-.mobile-icon {
+.mobile-icon-large {
   margin-top: 0.5em;
   margin-left: 0.3em;
 }
-.mail-icon {
+.mail-icon-large {
   margin-top: 0.5em;
 }
-.social-media {
+.social-media-large {
   display: grid;
   grid-template-columns: 2em 2em 2em;
   align-items: center;

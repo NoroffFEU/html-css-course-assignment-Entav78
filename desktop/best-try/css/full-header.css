@@ -1,0 +1,156 @@
+
+
+.body {
+  margin: 0;
+}
+
+.header-small {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(67, 78, 41);
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.hamburger-menu-img-small {
+  width: 100%;
+}
+
+.rainydays-logo-small {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.shopping-cart-logo-small {
+  background-color: transparent;
+  width: 80%;
+}
+
+.left-section-small {
+  padding-left: 1%;
+}
+
+.right-section-small {
+  padding-left: 1%;
+}
+
+.header-large {
+  display: flex;
+  background-color: rgb(67, 78, 41);
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  flex: 1;
+}
+
+.rainydays-logo-large {
+  width: 100%;
+}
+
+.left-section-large {
+  margin: 0;
+}
+
+.middle-section-large {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.menu-navigation-large {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  margin-right: 1%;
+}
+
+.about-button-large, .contact-us-button-large, .home-button-large, .shop-men-button-large, .shop-women-button-large {
+  background-color: rgb(36, 47, 10);
+  color: #fff;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 1em;
+  border-color: rgb(143, 157, 110);
+  margin-right: 2%;
+}
+
+.search-bar {
+  flex: 1;
+  width: 100%;
+  margin-top: 15%;
+}
+
+.search {
+  width: max-content;
+  display: flex;
+  align-items: start;
+  padding: 3.5%;
+  border-radius: 1em;
+  background-color: #fff;
+  width: 100%;
+  transition: box-shadow 0.25;
+}
+
+.search:focus-within {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.search-input {
+  font-size: 16px;
+  font-family: inter, sans-serif;
+  color: rgb(36, 47, 10);
+  margin-left: 1em;
+  outline: none;
+  border: none;
+  background: transparent;
+  flex: 1;
+}
+
+.placeholder-input::placeholder, .search-icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right-section-large {
+  display: flex;
+  align-items: flex-end;
+}
+
+.shopping-cart-logo-large {
+  width: 100%;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 430px) {
+  .container-header-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 600px) {
+  .container-header-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 719px) {
+  .container-header-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 4400px) {
+  .container-header-small {
+    display: none;
+  }
+}

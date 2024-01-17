@@ -12,45 +12,42 @@
 
 /* Rainydays Home Mobile*/
 .body {
-  margin-bottom: 500px;
+  margin: 0;
 } 
-      .header {
-        background-color: rgb(67, 78, 41);
-        height: 100%;
+      .header-small {
+        /*position: sticky;
+        top: 0;*/
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        padding-top: 10%;
-        padding-bottom: 3%;
+        background-color: rgb(67, 78, 41);
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 2%;
       }
-      .hamburger-menu {
+
+      .hamburger-menu-img {
+        width: 100%;
         
-        
-        }
+      }
+      
       .Rainydays-logo {
-        width: 75%;
-        padding-left: 30%;
+        width: 80%;
+        margin-left: 10%;
+        
+        
       }
       .shopping-cart-logo {
-        background-color: rgb(67, 78, 41);
-        width: 58%;
-        padding-left: 15%;
-        }
+        background-color: transparent;
+        width: 80%;
+      }
       
-      .left-section {
-        display: flex;
-        flex: 1;
-        align-items: center;
+      .left-section-small {
+        padding-left: 1%;
       }
-      .middle-section {
-        display: flex;
-        align-items: center;
-        flex: 2;
-      }
-      .right-section {
-        display: flex;
-        align-items: center;
-        flex: 1;
+      
+      .right-section-small {
+        padding-left: 1%;
       }
       
 
