@@ -1,3 +1,13 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
@@ -7,13 +17,14 @@
   background-color: chocolate;
   background-image: url(/assets/images/twentyfour/Dame/crop-resize080124.jpg);
   background-size: cover;
-  background-position: end;
-  height: 800px;
+  
+  height: 100%px;
   font-family: Merienda;
   font-weight: 500;
   padding-top: 5%;
   padding-left: 10%;
   padding-right: 50%;
+  padding-bottom: 10%;
 }
 
 .h2 {
@@ -25,7 +36,7 @@
   margin-top: 5%;
 }
 
-@media screen and (min-width: 601px) and (max-width: 719px) {
+@media screen and (min-width: 300px) and (max-width: 486px) {
   
   
 }
