@@ -10,10 +10,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
 
 
-/* Rainydays Home Mobile*/
-.body {
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
   margin: 0;
-} 
+}
       .header-small {
         /*position: sticky;
         top: 0;*/
