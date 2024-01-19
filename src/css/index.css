@@ -39,7 +39,7 @@ body {
 }
 .home-women-shop-container {
   display: flex;
-  background-image: url("/assets/images/twentyfour/Dame/women-shop-image.png");
+  background-image: url("/../html-css-course-assignment-Entav78/assets/images/twentyfour/Dame/women-shop-image.png");
   background-size: cover;
   background-position: center end; 
   height: 400px;
@@ -59,7 +59,7 @@ body {
 }
 .home-men-shop-container {
   display: flex;
-  background-image: url("/assets/images/WEB_Image_1222_ST_Fleece_jakke_H_11936_ss23_morkoker_81455128286_plid_1582623.jpeg");
+  background-image: url("/../html-css-course-assignment-Entav78/assets/images/WEB_Image_1222_ST_Fleece_jakke_H_11936_ss23_morkoker_81455128286_plid_1582623.jpeg");
   background-size: cover;
   background-position: center end; 
   height: 400px;
