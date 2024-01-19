@@ -9,6 +9,7 @@ body {
   margin: 0;
 }
 .about-rainydays-desktop-container {
+  background-color: blue;
   background-image: url(/../html-css-course-assignment-Entav78/assets/images/Rainydays-ai-small.jpg);
   background-size: cover;
   background-position: center;
