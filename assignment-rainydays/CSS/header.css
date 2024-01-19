@@ -1,12 +1,4 @@
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-body {
-  box-sizing: border-box;
-  min-height: 100vh;
-  margin: 0;
-}
 
 
 
@@ -121,6 +113,10 @@ body {
   border: none;
   background: transparent;
   flex: 1;
+}
+
+.visually-hidden {
+  display: none;
 }
 
 .placeholder-input::placeholder, .search-icon {

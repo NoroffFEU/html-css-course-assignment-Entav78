@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="webshop" content="online shop for durable, weatherproof jackets for actice men and women">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Rainydays Desktop</title>
+  <title>Rainydays home page</title>
   <link rel="stylesheet" href="/assignment-rainydays/CSS/header.css">
   <link rel="stylesheet" href="/assignment-rainydays/CSS/index-home.css">
   <link rel="stylesheet" href="/assignment-rainydays/CSS/footer.css">
@@ -12,59 +13,62 @@
   
 </head>
 
-  <body class="body">
-    <div class="container-header-small">
-    <div class="header-small">
-      <div class="left-section-small">
-        <img class="hamburger-menu-img-small"
-        src="/assets/images/hamburger-figma.png"> 
-      </div>
-      <div class="middle-section-small">
-        <img class="rainydays-logo-small" src="/assets/images/RD-logo-white.png">
-      </div>
-      <div class="right-section-small">
-        <img class="shopping-cart-logo-small" src="/assets/images/shopping-cart-desktop.png">
-      </div>
-    </div>
-  </div>
-
-    <div class="container-header-large">
-      <div class="header-large">
-        <div class="left-section-large">
-          <img class="rainydays-logo-large" alt="company-logo-of-rainydays" src="/assets/images/RD-logo-white.png">
-        </div>
-        <div class="middle-section-large">
-          <form class="search-bar">
-            <div class="search">
-              <span class="search-icon material-symbols-outlined">search</span>
-              <input class="search-input" type="search" placeholder="Search">
+<body class="body">
+    
+  <header>
+    <div class="container-header-full">
+        <div class="container-header-small">
+          <div class="header-small">
+            <div class="left-section-small">
+              <img class="hamburger-menu-img-small" alt="hamburger-menu-closed-icon" src="/assets/images/hamburger-figma.png">
             </div>
-          </form>
-          <div class="menu-navigation-large">
-            <button class="home-button-large">Home</button>
-            <button class="shop-women-button-large">Shop Women</button>
-            <button class="shop-men-button-large">Shop Men</button>
-            <button class="about-button-large">About</button>
-            <button class="contact-us-button-large">Contact Us</button>
+            <div class="middle-section-small">
+              <img class="rainydays-logo-small" alt="rainyday-logo-with-a-mountain, pushing-the-limits" src="/assets/images/RD-logo-white.png">
+            </div>
+            <div class="right-section-small">
+              <img class="shopping-cart-logo-small" alt="an-empty-shopping-cart" src="/assets/images/shopping-cart-desktop.png">
+            </div>
           </div>
         </div>
-        <div class="right-section-large">
-          <img class="shopping-cart-logo-large" alt="shopping-cart" src="/assets/images/shopping-cart-desktop.png">
+    
+        <div class="container-header-large">
+          <div class="header-large">
+            <div class="left-section-large">
+              <img class="rainydays-logo-large" alt="company-logo-of-rainydays" src="/assets/images/RD-logo-white.png">
+            </div>
+            <div class="middle-section-large">
+              <form class="search-bar">
+                <label for="search-input" class="visually-hidden">search</label>
+                <div class="search">
+                  <span class="search-icon material-symbols-outlined">search</span>
+                  <input class="search-input" id="search-input" type="search" placeholder="Search">
+                </div>
+              </form>
+              <div class="menu-navigation-large">
+                <button class="home-button-large">Home</button>
+                <button class="shop-women-button-large">Shop Women</button>
+                <button class="shop-men-button-large">Shop Men</button>
+                <button class="about-button-large">About</button>
+                <button class="contact-us-button-large">Contact Us</button>
+              </div>
+            </div>
+            <div class="right-section-large">
+              <img class="shopping-cart-logo-large" alt="Shopping cart icon" src="/assets/images/shopping-cart-desktop.png">
+            </div>
+          </div>
         </div>
+    </div>
+  </header>
+        
+  <main>
+    <div class="about-rainydays-desktop-container">
+      <h1 class="h1">Welcome to our online store,</h1>
+      <div class="about-us-text">
+        <p class="p1">where style meets functionality in the world of  jackets.</p>
+        <p class="p1">Our collection boasts durable, weatherproof outerwear designed to keep you dry and comfortable in any adventure.</p>
       </div>
     </div>
-  </div>  
     
-      <div class="about-rainydays-desktop-container">
-        <p class="h1">Welcome to our online store,</p>
-        <div class="about-us-text">
-          <p class="p1">where style meets functionality in the world of  jackets.</p>
-          <p class="p1">Our collection boasts durable, weatherproof outerwear designed to keep you dry and comfortable in any adventure.</p>
-        </div>
-      </div>
-    
-        
-      
     <div class="home-women-shop-container">
       <button class="women-shop-button" id="womenbutton">Shop Women</button>
     </div>
@@ -72,43 +76,47 @@
     <div class="home-men-shop-container">
       <button class="men-shop-button" id="menbutton">Shop Men</button>
     </div>
-  
+  </main>
+
+  <footer>
     <div class="container-footer-full">
       <div class="footer-large">
+        
         <div class="upper-section-large">
-          <p class="h1-footer-large">Contact Us</p>
-          <div class="location-large">
-            <img class="location-icon-large" src="/assets/images/icons/location-icon.png">
-            <div class="location-name-large">
-              <p>Rainydays</p>
-              <p>Rainy Valley 75</p>
-              <p>3876 Sundale</p>
-            </div>
+          <h1 class="contact-us-large"> Contact Us</h1>
+            <div class="location-large">
+              <img class="location-icon-large" alt="a-small-location-icon" src="/assets/images/icons/location-icon.png">
+              <div class="location-name-large">
+                <p>Rainydays</p>
+                <p>Rainy Valley 75</p>
+                <p>3876 Sundale</p>
+              </div>
           </div>
           <div class="call-us-large">
-            <img class="mobile-icon-large" src="/assets/images/icons/mobile-icon.png">
+            <img class="mobile-icon-large" alt="a-mobile-icom" src="/assets/images/icons/mobile-icon.png">
             <p>+47 976 19 333</p>
           </div>
           <div class="mail-us-large">
-            <img class="mail-icon-large" src="/assets/images/icons/mail-icon.png">
+            <img class="mail-icon-large" alt="an-e-mail-icon" src="/assets/images/icons/mail-icon.png">
             <p>mail@rainydays.no</p>
           </div>
         </div>
+
         <div class="lower-section-large">
-          <p class="h1-footer">Follow Us</p>
+          <h2 class="follow-us-large">Follow Us</h2>
           <div class="social-media-large">
-            <img class="facebook-icon-large" src="/assets/images/icons/facebook-icon.png">
-            <img class="instagram-icon-large" src="/assets/images/icons/instagram-icon.png">
-            <img class="linkedin-icon-large" src="/assets/images/icons/linkedin-icon3.png">
+            <img class="facebook-icon-large" alt="a-small-facebook-icon" src="/assets/images/icons/facebook-icon.png">
+            <img class="instagram-icon-large" alt="a-small-instagram-icon" src="/assets/images/icons/instagram-icon.png">
+            <img class="linkedin-icon-large" alt="a-small-linkedin-icon" src="/assets/images/icons/linkedin-icon3.png">
           </div>
         </div>
       </div>
   
       <div class="footer-small">
         <div class="upper-section-small">
-          <p class="p1">Contact Us</p>
+          <h3 class="contact-us-small">Contact Us</h3>
           <div class="location-small">
-            <img class="location-icon-small" src="/assets/images/icons/location-icon.png">
+            <img class="location-icon-small" alt="a-small-location-icon" src="/assets/images/icons/location-icon.png">
             <div class="location-name-small">
               <p>Rainydays</p>
               <p>Rainy Valley 75</p>
@@ -116,25 +124,26 @@
             </div>
           </div>
           <div class="call-us-small">
-            <img class="mobile-icon-small" src="/assets/images/icons/mobile-icon.png">
+            <img class="mobile-icon-small" alt="a-mobile-icom" src="/assets/images/icons/mobile-icon.png">
             <p>+47 976 19 333</p>
           </div>
           <div class="mail-us-small">
-            <img class="mail-icon-small" src="/assets/images/icons/mail-icon.png">
+            <img class="mail-icon-small" alt="an-e-mail-icon" src="/assets/images/icons/mail-icon.png">
             <p>mail@rainydays.no</p>
           </div>
         </div>
         <div class="lower-section-small">
-          <p class="p1">Follow Us</p>
+          <h3 class="follow-us-small">Follow Us</h3>
           <div class="social-media-small">
-            <img class="facebook-icon-small" src="/assets/images/icons/facebook-icon.png">
-            <img class="instagram-icon-small" src="/assets/images/icons/instagram-icon.png">
-            <img class="linkedin-icon-small" src="/assets/images/icons/linkedin-icon3.png">
+            <img class="facebook-icon-small" alt="a-small-facebook-icon" src="/assets/images/icons/facebook-icon.png">
+            <img class="instagram-icon-small" alt="a-small-instagram-icon" src="/assets/images/icons/instagram-icon.png">
+            <img class="linkedin-icon-small" alt="a-small-linkedin-icon" src="/assets/images/icons/linkedin-icon3.png">
           </div>
         </div>
       </div>
     </div>
-    
+  </footer>
+  
   </body>
 
 </html>

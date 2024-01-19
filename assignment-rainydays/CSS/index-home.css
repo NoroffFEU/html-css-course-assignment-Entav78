@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-.body {
+body {
   margin: 0;
 }
 .about-rainydays-desktop-container {
-  background-color: chocolate;
   background-image: url(/assets/images/Rainydays-ai-small.jpg);
   background-size: cover;
   background-position: center;
   height: 600px;
   font-family: merienda;
   padding-top: 5%;
-  
-  
 }
+
 .h1 {
   display: block;
-  color: white;
+  color: black;
   font-weight: 700;
   font-size: 22px;
   padding-left: 5%;
@@ -26,7 +27,7 @@
 }
 .about-us-text {
   margin-top: 2%;
-  color: white;
+  color: black;
   margin-left: 5%;
   font-weight: 400;
 }
