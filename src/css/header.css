@@ -89,6 +89,8 @@
   width: 90px;
   cursor: pointer;
   text-decoration: underline;
+  margin: 0 10px;
+  
 }
 
 .search-bar {
