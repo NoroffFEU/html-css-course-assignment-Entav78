@@ -160,13 +160,13 @@
   }
 }
 
-@media screen and (min-width: 550px) and (max-width: 699px) {
+@media screen and (min-width: 550px) and (max-width: 780px) {
   .container-header-large {
     display: none;
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 4400px) {
+@media screen and (min-width: 781px) and (max-width: 4400px) {
   .container-header-small {
     display: none;
   }
