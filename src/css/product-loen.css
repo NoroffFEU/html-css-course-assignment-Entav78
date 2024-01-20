@@ -42,12 +42,14 @@
   }
   .add-to-wishlist-button{
     background-color: rgb(143 , 157, 110);
+    color: black;
     margin-top: 1em;
   }
   .add-to-cart-icon {
     padding-right: 1.5em;
   }
   .add-to-wishlisht-icon {
+    color: black;
     margin-right: 1em;
   }
   .color-jacket-buttons {
