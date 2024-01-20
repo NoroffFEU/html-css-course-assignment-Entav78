@@ -9,8 +9,9 @@
   
   background-image: url(/../html-css-course-assignment-Entav78/assets/images/twentyfour/Dame/background-about.jpeg);
   background-size: cover;
+  background-image: ;
   background-position: center start;
-  
+  background-size: 100% 100%;
   font-family: Merienda;
   font-weight: 500;
   padding-top: 5%;
