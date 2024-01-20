@@ -57,6 +57,7 @@ body {
   }
   .add-to-wishlist-button{
     background-color: rgb(143 , 157, 110);
+    color: rgb(67, 78, 41);
     margin-top: 1em;
   }
   .add-to-cart-icon {
