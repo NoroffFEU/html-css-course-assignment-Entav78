@@ -67,7 +67,7 @@
 .menu-navigation-large {
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: space-between;
   margin-right: 1%;
 }
 
@@ -76,21 +76,23 @@
 .home-button-large, 
 .shop-men-button-large, 
 .shop-women-button-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(36, 47, 10);
   color: #fff;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
   border-radius: 1em;
   border-color: rgb(143, 157, 110);
-  margin-right: 2%;
+  height: 50px;
+  width: 90px;
+  cursor: pointer;
 }
 
 .search-bar {
   flex: 1;
   width: 100%;
   margin-top: 15%;
+  margin-bottom: 5%;
 }
 
 .search {
