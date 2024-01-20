@@ -56,6 +56,7 @@ body {
   border: none;
   border-radius: 20px;
   margin-bottom: 2%;
+  cursor: pointer;
 }
 .home-men-shop-container {
   display: flex;
@@ -66,6 +67,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  cursor: pointer;
 }
 .men-shop-button {
   background-color: rgb(67, 78, 41);
@@ -75,4 +77,5 @@ body {
   border: none;
   border-radius: 20px;
   margin-bottom: 2%;
+  cursor: pointer;
       }
