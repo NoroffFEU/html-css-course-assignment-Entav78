@@ -1,12 +1,4 @@
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
-body {
-  box-sizing: border-box;
-  min-height: 100vh;
-  margin: 0;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
@@ -14,8 +6,8 @@ body {
 
 
 .about-rainydays-page-desktop-container {
-  background-color: chocolate;
-  background-image: url(./html-css-course-assignment-Entav78/assets/images/twentyfour/Dame/background-about.jpeg);
+  
+  background-image: url(./../html-css-course-assignment-Entav78/assets/images/twentyfour/Dame/background-about.jpeg);
   background-size: cover;
   
   height: 100%px;
