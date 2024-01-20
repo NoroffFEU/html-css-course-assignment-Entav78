@@ -22,7 +22,7 @@ body {
   max-width: 100%;
 }
 .jacket-shop {
-      
+  text-align: center;    
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -30,6 +30,7 @@ body {
   cursor: pointer;
 }
 .jacket-name-shop {
+
   color: black;
   font-family: inter;
   font-weight: 700;
