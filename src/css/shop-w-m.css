@@ -30,7 +30,7 @@ body {
   cursor: pointer;
 }
 .jacket-name-shop {
-  
+  color: black;
   font-family: inter;
   font-weight: 700;
   font-size: 16px;
