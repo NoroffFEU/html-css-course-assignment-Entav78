@@ -21,7 +21,9 @@ body {
   margin-bottom: 1em;
   max-width: 100%;
 }
+
 .jacket-shop {
+  
   text-align: center;    
   display: flex;
   flex: 1;
