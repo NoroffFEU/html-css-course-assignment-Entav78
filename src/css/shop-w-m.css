@@ -1,12 +1,3 @@
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-body {
-  box-sizing: border-box;
-  min-height: 100vh;
-  margin: 0;
-}
 
 .jacket-container-wrap {
   display: flex;
@@ -72,3 +63,5 @@ body {
     padding-right: 1.5em;
     color: black;
   }  
+
+  

@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .full-container-shop{
   display: flex;
   flex-direction: column;
