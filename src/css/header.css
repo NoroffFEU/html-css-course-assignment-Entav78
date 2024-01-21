@@ -90,9 +90,12 @@
   cursor: pointer;
   text-decoration: underline;
   margin: 0 5px;
-  
 }
 
+.shop-men-button-large,
+.contact-us-button-large {
+  visibility: hidden;
+}
 .search-bar {
   display: flex;
   flex: 1;
