@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-size: 2vw;
+  width: 100%;
 }
 
 .full-container-shop{
@@ -12,10 +14,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 1em;
+  margin-bottom: 1vm;
 }
 
-.jacket-shop {
+.jacket-shop-img {
+  width: 100%;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -25,14 +28,14 @@ body {
 .jacket-name-shop {
   font-family: inter;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 2vw;
   margin: 0;
 }
 
 .price-shop {
   font-family: inter;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 2vw;
   margin: 0.5em;
 }
 .add-to-wishlist-button,
@@ -42,25 +45,30 @@ body {
   align-items: center;
   background-color: rgb(67, 78, 41);
   color: white;
-  width: 12em;
-  max-width: 500%;
-  height: 3em;
+  width: 15em;
+  height: 5em;
   border: none;
   border-radius: 1.5em;
   padding-left: 1.5em;
-  padding-right: 1em;  
+  padding-right: 1em;
+  font-size: 1vw;  
+  font-weight: 700;
   }
+  
   .add-to-wishlist-button{
     background-color: rgb(143 , 157, 110);
     color: black;
+
     margin-top: 1em;
   }
   .add-to-cart-icon {
     padding-right: 1.5em;
+    width: 15%;
   }
   .add-to-wishlisht-icon {
     color: black;
     margin-right: 1em;
+    width: 15%;
   }
   .color-jacket-buttons {
     display: flex;
@@ -74,6 +82,10 @@ body {
     border-radius: 50%;
     padding: 1.5em;
     margin: 0.3em;
+    width: 5em;
+    height: 5em;
+    font-size: 1vw;
+    
   }
     
   .pale-lime-button {
@@ -83,6 +95,9 @@ body {
     border-radius: 50%;
     padding: 1.5em;
     margin: 0.3em;
+    width: 5em;
+    height: 5em;
+    font-size: 1vw;
   }
     
   .navy-blue-button {
@@ -92,6 +107,9 @@ body {
     border-radius: 50%;
     padding: 1.5em;
     margin: 0.3em;
+    width: 5em;
+    height: 5em;
+    font-size: 1vw;
   }
   .light-yellow-button {
     background-color: rgb(230 , 239, 160);
@@ -100,6 +118,9 @@ body {
     border-radius: 50%;
     padding: 1.5em;
     margin: 0.3em;
+    width: 5em;
+    height: 5em;
+    font-size: 1vw;
   }
   .red-button {
     background-color: rgb(223 , 56, 24);
@@ -108,31 +129,39 @@ body {
     border-radius: 50%;
     padding: 1.5em;
     margin: 0.3em;
+    width: 5em;
+    height: 5em;
+    font-size: 1vw;
   }
   .size-jacket-buttons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 3%;
   }
   .xs-button,
   .s-button,
   .m-button,
-  .l-button,
+  .l-button, 
   .xl-button,
   .xxl-button {
     background-color: rgb(143 , 157, 110);
     color: black;
     border: none;
-    border-radius: 20%;
+    border-radius: 50%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    margin-inline: 5%;
+    width: 6em;
+    height: 6em;
+    font-size: 1vw;
+    font-weight: 700;
+    
   }
+
   .h1-product-info {
     font-weight: 700;
-    font-size: 20px;
+    
   }
   
   .jacket-description{
