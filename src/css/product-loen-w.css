@@ -84,7 +84,7 @@ body {
     margin: 0.3em;
     width: 5em;
     height: 5em;
-    font-size: 1vw;
+    font-size: 1.5vw;
     
   }
     
@@ -97,7 +97,7 @@ body {
     margin: 0.3em;
     width: 5em;
     height: 5em;
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
     
   .navy-blue-button {
@@ -109,7 +109,7 @@ body {
     margin: 0.3em;
     width: 5em;
     height: 5em;
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
   .light-yellow-button {
     background-color: rgb(230 , 239, 160);
@@ -120,7 +120,7 @@ body {
     margin: 0.3em;
     width: 5em;
     height: 5em;
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
   .red-button {
     background-color: rgb(223 , 56, 24);
@@ -131,7 +131,7 @@ body {
     margin: 0.3em;
     width: 5em;
     height: 5em;
-    font-size: 1vw;
+    font-size: 1.5vw;
   }
   .size-jacket-buttons {
     display: flex;
@@ -146,15 +146,16 @@ body {
   .xxl-button {
     background-color: rgb(143 , 157, 110);
     color: black;
-    border: none;
+    border: solid;
+    border-color: black;
     border-radius: 50%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    width: 6em;
-    height: 6em;
-    font-size: 1vw;
+    width: 5em;
+    height: 5em;
+    font-size: 1.5vw;
     font-weight: 700;
     
   }
