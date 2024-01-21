@@ -8,9 +8,9 @@
 .about-rainydays-page-desktop-container {
   
   background-image: url(/../html-css-course-assignment-Entav78/assets/images/twentyfour/Dame/WEB_Image_Isbre_2_0_Softshelljakke_D_11644_aw22_morkgul_101522231791_plid_1550990.jpeg);
-  background-size: cover;
+  background-size: stretch;
   background-position: center;
-  background-size: 100%;
+  
   font-family: Merienda;
   font-weight: 500;
   padding-top: 10%;
