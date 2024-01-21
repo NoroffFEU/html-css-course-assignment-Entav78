@@ -46,6 +46,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  padding-bottom: 4%;
 }
 
 .women-shop-button {
@@ -55,7 +56,7 @@ body {
   height: 47px;
   border: none;
   border-radius: 20px;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   cursor: pointer;
 }
 .home-men-shop-container {
@@ -68,7 +69,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
-  margin-bottom: 5%;
+  padding-bottom: 4%;
 }
 .men-shop-button {
   background-color: rgb(67, 78, 41);
@@ -77,6 +78,6 @@ body {
   height: 47px;
   border: none;
   border-radius: 20px;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   cursor: pointer;
       }
