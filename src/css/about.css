@@ -5,25 +5,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
 
 
-.about-rainydays-page-desktop-container {
-  
-  background-image: url(/../html-css-course-assignment-Entav78/assets/images/twentyfour/Dame/WEB_Image_Isbre_2_0_Softshelljakke_D_11644_aw22_morkgul_101522231791_plid_1550990.jpeg);
-  background-size: cover;
-  background-position: end;
-  
+.body {
   font-family: Merienda;
+  font-size: 2vw;
   font-weight: 500;
-  
 }
 
-.h1 {
-  display: block;
-  font-weight: 700;
-  font-size: 30px;
-  margin-top: 5%;
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
 }
 
-@media screen and (min-width: 300px) and (max-width: 486px) {
-  
-  
+.main-upper-section,
+.main-middle-section-1,
+.main-middle-section-2,
+.main-lower-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-size: cover;
 }
+
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  word-wrap: normal;
+}
+
+.text-1,
+.text-3 {
+  margin-left: 10%;
+}
+
+.text-2,
+.text-4 {
+  margin-right: 10%;
+}
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+  display: flex;
+  width: 100%;
+}
+

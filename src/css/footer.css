@@ -8,6 +8,11 @@
   margin: 0;
 }
 
+.container-footer-full {
+  
+  bottom: 0;
+}
+
 .footer-small {
   display: grid;
   grid-template-rows: 13em 5rem;
