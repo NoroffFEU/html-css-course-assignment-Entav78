@@ -7,6 +7,7 @@
 
 body {
   margin: 0;
+  font-size: 2vw;
 }
 .about-rainydays-desktop-container {
   
@@ -15,6 +16,7 @@ body {
   background-position: center;
   height: 600px;
   font-family: merienda;
+  font-size: 2vw;
   padding-top: 5%;
 }
 
@@ -22,9 +24,9 @@ body {
   display: block;
   color: black;
   font-weight: 700;
-  font-size: 22px;
+  
   padding-left: 5%;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .about-us-text {
   margin-top: 2%;
