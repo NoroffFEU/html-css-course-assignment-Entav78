@@ -8,7 +8,7 @@ body {
 }
 
 .about-rainydays-desktop-container {
-  background-image: url(/assets/images/rainydays-ai-resized.jpg);
+  background-image: url(../..assets/images/rainydays-ai-resized.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
