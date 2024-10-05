@@ -13,7 +13,7 @@ body {
 
 .about-rainydays-desktop-container {
   /*/../html-css-course-assignment-Entav78*/
-  background-image: url(./assets/images/rainydays-ai-resized.jpg);
+  background-image: url('../assets/images/rainydays-ai-resized.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
