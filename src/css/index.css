@@ -9,9 +9,10 @@ body {
   margin: 0;
   font-size: 2vw;
 }
+
 .about-rainydays-desktop-container {
-                        /*/../html-css-course-assignment-Entav78*/
-  background-image: url(/assets/images/rainydays-ai-resized.jpg);
+  /*/../html-css-course-assignment-Entav78*/
+  background-image: url(./assets/images/rainydays-ai-resized.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -24,10 +25,11 @@ body {
   display: block;
   color: white;
   font-weight: 700;
-  
+
   padding-left: 5%;
   margin-top: 2%;
 }
+
 .about-us-text {
   margin-top: 2%;
   color: white;
@@ -39,11 +41,12 @@ body {
 .img {
   width: 100%;
 }
+
 .home-women-shop-container {
   display: flex;
-  background-image: url("/assets/images/twentyfour/Dame/women-shop-image.png");
+  background-image: url("./assets/images/twentyfour/Dame/women-shop-image.png");
   background-size: cover;
-  background-position: center end; 
+  background-position: center end;
   height: 400px;
   flex-direction: column;
   justify-content: flex-end;
@@ -61,11 +64,12 @@ body {
   margin-bottom: 7%;
   cursor: pointer;
 }
+
 .home-men-shop-container {
   display: flex;
-  background-image: url("/assets/images/twentyfour/Herre/shop-men-tiny.jpeg");
+  background-image: url("./assets/images/twentyfour/Herre/shop-men-tiny.jpeg");
   background-size: cover;
-  background-position: center end; 
+  background-position: center end;
   height: 400px;
   flex-direction: column;
   justify-content: flex-end;
@@ -73,6 +77,7 @@ body {
   cursor: pointer;
   padding-bottom: 4%;
 }
+
 .men-shop-button {
   background-color: rgb(67, 78, 41);
   color: white;
@@ -82,4 +87,4 @@ body {
   border-radius: 20px;
   margin-bottom: 4%;
   cursor: pointer;
-      }
+}
