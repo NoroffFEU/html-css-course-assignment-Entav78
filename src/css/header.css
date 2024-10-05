@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+:root {
+  --background: rgba(67, 78, 41);
+}
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+main {
+  padding-top: 10em;
+  flex-grow: 1;
+}
 
 .header-small {
   position: sticky;
@@ -73,10 +85,10 @@
   margin-right: 1%;
 }
 
-.about-button-large, 
-.contact-us-button-large, 
-.home-button-large, 
-.shop-men-button-large, 
+.about-button-large,
+.contact-us-button-large,
+.home-button-large,
+.shop-men-button-large,
 .shop-women-button-large {
   display: flex;
   align-items: center;
@@ -95,6 +107,7 @@
 .contact-us-button-large {
   visibility: hidden;
 }
+
 .search-bar {
   display: flex;
   flex: 1;
@@ -102,7 +115,7 @@
   width: 100%;
   margin-top: 15%;
   margin-bottom: 5%;
-  
+
 }
 
 .search {
@@ -112,7 +125,7 @@
   padding: 3.5%;
   border-radius: 1em;
   background-color: #fff;
-  
+
   transition: box-shadow 0.25;
   border-left: 5%;
 }
