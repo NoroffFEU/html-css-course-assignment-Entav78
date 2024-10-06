@@ -22,9 +22,8 @@ body {
 
 .h1 {
   display: block;
-  color: white;
+  color: black;
   font-weight: 700;
-
   padding-left: 5%;
   margin-top: 2%;
 }
