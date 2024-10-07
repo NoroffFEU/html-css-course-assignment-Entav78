@@ -1,0 +1,154 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
+
+.body {
+  margin: 0;
+}
+
+.container-footer-full {
+  
+  bottom: 0;
+}
+
+.footer-small {
+  display: grid;
+  grid-template-rows: 13em 5rem;
+  align-items: center;
+  background-color: rgb(67, 78, 41);
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  line-height: 0.2em;
+  padding-left: 35%;
+  padding-bottom: 1rem;
+}
+
+.upper-section-small {
+  display: grid;
+  grid-template-rows: 1.8em 4em 1.8em;
+  width: 12em;
+}
+
+.lower-section-small {
+  display: grid;
+  grid-template-rows: 1.5em 3em;
+}
+
+.location-small,
+.call-us-small,
+.mail-us-small {
+  display: grid;
+  grid-template-columns: 2em 1fr;
+}
+
+.location-icon-small {
+  margin-top: 0.5em;
+  margin-left: 0.3em;
+}
+
+.mobile-icon-small {
+  margin-top: 0.5em;
+  margin-left: 0.3em;
+}
+
+.mail-icon-small {
+  margin-top: 0.5em;
+}
+
+.social-media-small {
+  display: grid;
+  grid-template-columns: 2em 2em 2em;
+  align-items: center;
+}
+
+
+.footer-large {
+  display: grid;
+  grid-template-rows: 13em 5rem;
+  align-items: center;
+  background-color: rgb(67, 78, 41);
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  line-height: 0.2em;
+  padding-left: 40%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+}
+
+.upper-section-large {
+  display: grid;
+  grid-template-rows: 1.8em 4em 1.8em;
+  width: 12em;
+  margin-bottom: 2em;
+}
+
+.contact-us-large,
+.follow-us-large {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.lower-section-large {
+  display: grid;
+  grid-template-rows: 1.5em 3em;
+}
+
+.location-large,
+.call-us-large,
+.mail-us-large {
+  display: grid;
+  grid-template-columns: 2em 1fr;
+}
+
+.location-icon-large {
+  width: 40%;
+  margin-top: 0.5em;
+  margin-left: 0.3em;
+}
+
+.mobile-icon-large {
+  margin-top: 0.5em;
+  margin-left: 0.3em;
+}
+
+.mail-icon-large {
+  margin-top: 0.5em;
+}
+
+.social-media-large {
+  display: grid;
+  grid-template-columns: 2em 2em 2em;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 430px) {
+  .footer-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 600px) {
+  .footer-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 719px) {
+  .footer-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 4400px) {
+  .footer-small {
+    display: none;
+  }
+}

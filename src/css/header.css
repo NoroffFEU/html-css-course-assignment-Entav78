@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+  --background: rgba(67, 78, 41);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 10em;
+  flex-grow: 1;
+}
+
+.header-small {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(67, 78, 41);
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.hamburger-menu-img-small {
+  width: 100%;
+}
+
+.rainydays-logo-small {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.shopping-cart-logo-small {
+  background-color: transparent;
+  width: 80%;
+}
+
+.left-section-small {
+  padding-left: 1%;
+}
+
+.right-section-small {
+  padding-left: 1%;
+}
+
+.header-large {
+  display: flex;
+  background-color: rgb(67, 78, 41);
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  flex: 1;
+}
+
+.rainydays-logo-large {
+  width: 100%;
+  cursor: pointer;
+  margin-top: 10%;
+}
+
+.left-section-large {
+  margin: 0;
+}
+
+.middle-section-large {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.menu-navigation-large {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1%;
+}
+
+.about-button-large,
+.contact-us-button-large,
+.home-button-large,
+.shop-men-button-large,
+.shop-women-button-large {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 47, 10);
+  color: #fff;
+  border-radius: 1em;
+  border-color: rgb(143, 157, 110);
+  height: 50px;
+  width: 80px;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+.contact-us-button-large {
+  visibility: hidden;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 15%;
+  margin-bottom: 5%;
+
+}
+
+.search {
+  width: 60%;
+  display: flex;
+  align-items: start;
+  padding: 3.5%;
+  border-radius: 1em;
+  background-color: #fff;
+
+  transition: box-shadow 0.25;
+  border-left: 5%;
+}
+
+.search:focus-within {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.search-input {
+  font-size: 16px;
+  font-family: inter, sans-serif;
+  color: rgb(36, 47, 10);
+  margin-left: 1em;
+  outline: none;
+  border: none;
+  background: transparent;
+  flex: 1;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.placeholder-input::placeholder, .search-icon {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right-section-large {
+  display: flex;
+  align-items: flex-end;
+}
+
+.shopping-cart-logo-large {
+  width: 100%;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 430px) {
+  .container-header-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 550px) {
+  .container-header-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px) {
+  .container-header-large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 781px) and (max-width: 4400px) {
+  .container-header-small {
+    display: none;
+  }
+}

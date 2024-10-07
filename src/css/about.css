@@ -1,0 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
+
+
+.body {
+  font-family: Merienda;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+}
+
+.main-upper-section,
+.main-middle-section-1,
+.main-middle-section-2,
+.main-lower-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-size: cover;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  word-wrap: normal;
+}
+
+.text-1,
+.text-3 {
+  margin-left: 10%;
+}
+
+.text-2,
+.text-4 {
+  margin-right: 10%;
+}
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+  display: flex;
+  width: 100%;
+}
+
+
+

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;700&display=swap');
+@import url('/testing/header-footer.css');
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 2vw;
+}
+
+.about-rainydays-desktop-container {
+  background-image: url(../../assets/images/rainydays-ai-resized.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: merienda;
+  font-size: 2vw;
+  padding-top: 10%;
+}
+
+.p1,
+.h1 {
+  display: inline-block;
+  color: black;
+  background-color: rgba(245, 245, 220, 0.6);
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  margin-top: 2%;
+}
+
+.about-us-text {
+  margin-top: 2%;
+  color: white;
+  margin-left: 5%;
+  font-weight: 400;
+}
+
+.img {
+  width: 100%;
+}
+
+.home-women-shop-container {
+  display: flex;
+  background-image: url(../../assets/images/twentyfour/Dame/women-shop-image.png);
+  background-size: cover;
+  background-position: center end;
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 4%;
+}
+
+.women-shop-button {
+  background-color: rgb(67, 78, 41);
+  color: white;
+  width: 112px;
+  height: 47px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 7%;
+  cursor: pointer;
+}
+
+.home-men-shop-container {
+  display: flex;
+  background-image: url('/assets/images/twentyfour/Herre/shop-men-tiny.jpeg');
+  background-size: cover;
+  background-position: center end;
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 4%;
+}
+
+.men-shop-button {
+  background-color: rgb(67, 78, 41);
+  color: white;
+  width: 112px;
+  height: 47px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 4%;
+  cursor: pointer;
+}

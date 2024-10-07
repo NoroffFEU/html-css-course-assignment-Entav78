@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "html-css-course-assignment-Entav78",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"githubPullRequests.ignoredPullRequestBranches": [
+			"main"
+		]
+	}
+}
